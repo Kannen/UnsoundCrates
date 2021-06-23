@@ -1,7 +1,7 @@
 # List of virally unsound crates
 
-Some crates [proudly promote](https://crates.io/crates/totally-speedy-transmute) code that aims at turning unsafe code
-into unsound code.
+Some crates [proudly promote](https://crates.io/crates/totally-speedy-transmute) code that **aims at turning unsafe code
+into unsound code**.
 
 Any crate that depends on the crates listed bellow are very likely to provide unsound
 interface or to have undefined behavior.
@@ -11,8 +11,8 @@ Those crates and any of their dependencies (recursively) are best avoided.
 You can verify if your crate is infected by running `cargo tree | grep transmute` to see if it depends
 on those crates.
 
-There are probably more crates that expose such an indecent behavior. If you find one, call the
-911 or add them to the list bellow.
+There are probably more crates that expose such an indecent behavior. If you find one, *call the
+911 or add them to the list bellow*.
 
 ## Unsoundness promoting crate list
 
