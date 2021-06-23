@@ -1,14 +1,18 @@
 # List of virally unsound crates
 
-Some crates promotes codes that aims at turning unsafe code
+Some crates proudly promote code that aims at turning unsafe code
 into unsound code.
 
 Any crate that depends on the crates listed bellow are very likely to provide unsound
 interface or to have undefined behavior.
 
-The crates listed bellow and any of their dependencies (recursively) are best avoided.
+Those crates and any of their dependencies (recursively) are best avoided.
 
-Check the crate you maintain with `cargo tree | grep transmute` to see if it is infected.
+You can verify if your crate is infected by running `cargo tree | grep transmute` to see if it depends
+on those crates.
+
+There are probably more crates that expose such an indecent behavior. If you find one, call the
+911 or add them to the list bellow.
 
 ## Unsoundness promoting crate list
 
