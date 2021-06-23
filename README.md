@@ -1,6 +1,6 @@
 # List of virally unsound crates
 
-Some crates proudly promote code that aims at turning unsafe code
+Some crates [proudly promote](https://crates.io/crates/totally-speedy-transmute) code that aims at turning unsafe code
 into unsound code.
 
 Any crate that depends on the crates listed bellow are very likely to provide unsound
