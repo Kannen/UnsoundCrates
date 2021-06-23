@@ -16,7 +16,5 @@ There are probably more crates that expose such an indecent behavior. If you fin
 
 ## Unsoundness promoting crate list
 
-  - [safe-transmute](https://crates.io/crates/safe-transmute) \[[dependents](https://crates.io/crates/safe-transmute/reverse_dependencies)\]
-  - [safe_transmute_2](https://crates.io/crates/safe_transmute_2) \[[dependents](https://crates.io/crates/safe_transmute_2/reverse_dependencies)\]
   - [totally-speedy-transmute](https://crates.io/crates/totally-speedy-transmute) \[[dependents](https://crates.io/crates/totally-speedy-transmute/reverse_dependencies)\]
   - [totally-safe-transmute](https://crates.io/crates/totally-safe-transmute) \[[dependents](https://crates.io/crates/totally-safe-transmute/reverse_dependencies)\]
